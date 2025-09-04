@@ -14,7 +14,9 @@ A case wrapped in shadows and anomalies. Black Swan pushes the boundaries of for
 # [Case 4 : Memory-leakage Case](https://github.com/Amithgowda0903/Cyber-Case-Solving/tree/main/Memory-leakage)
 A silent bleed hidden in plain sight. What seems like a healthy system slowly unravels as memory vanishes without a trace. Digging deeper reveals phantom processes, concealed mismanagement, and the possibility of something far more sinister. Is this just bad coding, or a deliberate attempt at sabotage cloaked in instability?
 
-**Solution inside the case folder**
+**Direct Solution inside the case folder**
 
 # [Case 5 : Drug_Dealer_case](https://github.com/Amithgowda0903/Cyber-Case-Solving/tree/main/Drug_Dealer_Case)
 Behind casual browsing lies a darker marketplace. Buried in Craigslist ads, Gmail exchanges, and Bitcoin wallets is the shadowy outline of an illicit trade. Each browser history entry is a breadcrumb, each database record a clue. Was it a careless user trail, or the digital skeleton of a dealer who thought he couldn’t be traced?
+
+**Direct Solution inside the case folder**
