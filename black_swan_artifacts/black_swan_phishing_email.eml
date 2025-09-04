@@ -1,0 +1,19 @@
+From: Billing SaaS Support <alerts@billing-saas.com>
+To: employee@upi-switch.local
+Subject: Security Update Required - Vendor Portal
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+
+Dear Partner,
+
+We have detected unusual activity in your vendor billing account.
+Please verify and reset your portal access immediately at the link below:
+
+http://vendor-update-secure.example.com/login
+
+Failure to update credentials will suspend your billing services.
+
+Regards,
+Billing SaaS Security Team

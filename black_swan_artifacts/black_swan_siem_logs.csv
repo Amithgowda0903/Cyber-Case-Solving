@@ -1,0 +1,11 @@
+timestamp,src_ip,dst_ip,event,details
+2025-08-26T10:00:10,vendor-vpn-1,10.0.3.15,Vendor VPN login,Billing SaaS vendor connected
+2025-08-26T10:01:22,10.0.3.15,-,LOLBin execution,rundll32.exe executing suspicious DLL
+2025-08-26T10:02:44,10.0.3.15,-,PowerShell command,Encrypted HTTPS with domain fronting
+2025-08-26T10:03:55,10.0.3.15,10.0.3.20,RDP connection,Jump host lateral move
+2025-08-26T10:04:30,10.0.3.20,-,Kerberos anomaly,"Golden Ticket forged, lifetime=10y"
+2025-08-26T10:05:10,10.0.3.20,8.8.8.8,DNS over HTTPS,Suspicious exfil traffic
+2025-08-26T10:06:00,iot-qr-01,203.0.113.200,IoT firmware beacon,QR scanner beacon every 60s
+2025-08-26T10:07:15,10.0.3.20,db-oracle-1,DB query,"SELECT UTR, Amount FROM settlements"
+2025-08-26T10:08:45,pos-broker,203.0.113.210,MQTT exfil,POS telemetry data siphoned
+2025-08-26T10:09:30,ics-relay-1,192.168.50.20,Modbus relay toggle,Relay state changed to OFF

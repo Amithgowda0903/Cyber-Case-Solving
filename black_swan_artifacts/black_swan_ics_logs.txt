@@ -1,0 +1,2 @@
+timestamp=2025-08-26T10:09:30 node=ics-relay-1 protocol=Modbus action=TOGGLE value=OFF message="Relay toggled by 10.0.3.20"
+timestamp=2025-08-26T10:09:45 node=ics-relay-1 protocol=Modbus action=ALERT severity=high message="Unexpected relay command detected"
