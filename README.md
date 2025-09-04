@@ -11,3 +11,10 @@ A case wrapped in shadows and anomalies. Black Swan pushes the boundaries of for
 
 **Solution to be found in black_swan_artifacts/Solution_report**
 
+# Case 4 : Memory-leakage Case
+A silent bleed hidden in plain sight. What seems like a healthy system slowly unravels as memory vanishes without a trace. Digging deeper reveals phantom processes, concealed mismanagement, and the possibility of something far more sinister. Is this just bad coding, or a deliberate attempt at sabotage cloaked in instability?
+
+**Solution inside the case folder**
+
+# Case 5 : Drug_Dealer_case
+Behind casual browsing lies a darker marketplace. Buried in Craigslist ads, Gmail exchanges, and Bitcoin wallets is the shadowy outline of an illicit trade. Each browser history entry is a breadcrumb, each database record a clue. Was it a careless user trail, or the digital skeleton of a dealer who thought he couldn’t be traced?
