@@ -1,0 +1,10 @@
+timestamp,src_ip,dst_ip,event,details
+2025-08-26T09:00:12,10.0.2.15,-,Phishing email opened,User clicked NPCI reset link
+2025-08-26T09:01:05,10.0.2.15,-,PowerShell execution,powershell.exe -nop -w hidden -enc ...
+2025-08-26T09:02:45,10.0.2.15,10.0.2.20,RDP connection,lateral movement attempt to app node
+2025-08-26T09:05:22,10.0.2.20,8.8.8.8,DNS request,encoded suspicious query
+2025-08-26T09:06:00,10.0.2.20,203.0.113.55,C2 beacon,HTTP POST /status
+2025-08-26T09:06:30,iot-cam-1,203.0.113.99,IoT beacon,CCTV device beaconing every 30s
+2025-08-26T09:07:22,10.0.2.20,api.psp.example.com,Webhook callback failure,signature validation failed on /upi/callback
+2025-08-26T09:08:10,10.0.2.20,192.168.1.50,File access,finance.xlsx accessed
+2025-08-26T09:09:45,ics-node-1,192.168.2.100,Modbus write,Power controller state changed

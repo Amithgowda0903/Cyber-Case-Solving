@@ -1,0 +1,40 @@
+{
+  "description": "UPI-tailored ingest",
+  "processors": [
+    {
+      "set": {
+        "field": "event.dataset",
+        "value": "attack_pack_upi"
+      }
+    },
+    {
+      "rename": {
+        "field": "src_ip",
+        "target_field": "source.ip",
+        "ignore_missing": true
+      }
+    },
+    {
+      "rename": {
+        "field": "dst_ip",
+        "target_field": "destination.ip",
+        "ignore_missing": true
+      }
+    },
+    {
+      "set": {
+        "field": "payment.stack",
+        "value": "upi_switch"
+      }
+    },
+    {
+      "grok": {
+        "field": "event.original",
+        "patterns": [
+          "%{URIPATHPARAM:path}"
+        ],
+        "ignore_missing": true
+      }
+    }
+  ]
+}

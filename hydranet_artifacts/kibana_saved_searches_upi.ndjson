@@ -1,0 +1,2 @@
+{"attributes":{"title":"UPI - Webhook Signature Failures","description":"Signature errors on /upi/callback","kibanaSavedObjectMeta":{"searchSourceJSON":"{\"query\":{\"query\":\"path: /upi/callback AND (status:401 OR message: \\\"signature validation failed\\\")\"}}"}}, "type":"search"}
+{"attributes":{"title":"UPI - Outbound Non-PSP Traffic","description":"Core services calling non-PSP IPs","kibanaSavedObjectMeta":{"searchSourceJSON":"{\"query\":{\"query\":\"event:(\\"HTTP\\" OR \\"C2 beacon\\") AND NOT destination.ip:(PSP_IP_SET)\"}}"}}, "type":"search"}

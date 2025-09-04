@@ -1,0 +1,55 @@
+{
+  "description": "Parse attack pack SIEM CSV and enrich basic fields",
+  "processors": [
+    {
+      "csv": {
+        "field": "message",
+        "target_fields": [
+          "timestamp",
+          "src_ip",
+          "dst_ip",
+          "event",
+          "details"
+        ],
+        "separator": ",",
+        "ignore_missing": true
+      }
+    },
+    {
+      "date": {
+        "field": "timestamp",
+        "formats": [
+          "ISO8601",
+          "yyyy-MM-dd'T'HH:mm:ss"
+        ]
+      }
+    },
+    {
+      "set": {
+        "field": "event.dataset",
+        "value": "attack_pack"
+      }
+    },
+    {
+      "rename": {
+        "field": "src_ip",
+        "target_field": "source.ip",
+        "ignore_missing": true
+      }
+    },
+    {
+      "rename": {
+        "field": "dst_ip",
+        "target_field": "destination.ip",
+        "ignore_missing": true
+      }
+    },
+    {
+      "rename": {
+        "field": "details",
+        "target_field": "event.original",
+        "ignore_missing": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+2025-08-26T09:06:30Z iot-device=cctv-01 event=beacon dst_ip=203.0.113.99 interval=30s
+2025-08-26T09:07:00Z iot-device=cctv-01 event=beacon dst_ip=203.0.113.99 interval=30s
+2025-08-26T09:07:30Z iot-device=cctv-01 event=beacon dst_ip=203.0.113.99 interval=30s

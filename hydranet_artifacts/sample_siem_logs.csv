@@ -1,0 +1,6 @@
+timestamp,src_ip,dst_ip,event,details
+2025-08-26T09:01:12,10.0.2.15,192.168.1.100,PowerShell execution,powershell.exe -nop -w hidden -enc ...
+2025-08-26T09:02:55,10.0.2.15,10.0.2.20,RDP connection,lateral movement attempt
+2025-08-26T09:05:42,10.0.2.20,8.8.8.8,DNS request,suspicious encoded query
+2025-08-26T09:06:11,10.0.2.20,203.0.113.55,C2 beacon,HTTP POST /status
+2025-08-26T09:10:33,10.0.2.20,192.168.1.50,File access,Access to finance.xlsx

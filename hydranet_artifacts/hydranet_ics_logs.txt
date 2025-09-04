@@ -1,0 +1,2 @@
+timestamp=2025-08-26T09:09:45 node=ics-node-1 protocol=Modbus action=WRITE register=40001 value=0x01 message="Power controller state changed"
+timestamp=2025-08-26T09:09:46 node=ics-node-1 protocol=Modbus action=ALERT severity=high message="Unexpected command from 10.0.2.20"
