@@ -82,9 +82,6 @@ sudo mount -o ro,loop,offset=$((START_SECTOR*512)) ewf1 /mnt/partition
 
 _(Replace `START_SECTOR` with the sector offset from `mmls` output)_
 
-
-  Perfect 👍 you’ve now moved from **mounting** into **forensic analysis** with Sleuth Kit tools (`mmls`, `fls`, `icat`). I’ll continue and organize your steps properly.
-
 ---
 
 ### 7. Examine Partition Table with `mmls`
